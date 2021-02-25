@@ -3,3 +3,4 @@ bin
 data/train.csv
 .idea
 __pycache__
+models
