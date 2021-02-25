@@ -1,6 +1,4 @@
 bin
 .DS_Store
-data/train.csv
 .idea
 __pycache__
-models
