@@ -1,0 +1,32 @@
+{
+	"mode": "train",
+	"hide_info_log": true,
+	"text_process": {
+        "max_words": 1000,
+        "max_len": 300
+	},
+	"model": {
+		"embedding_layer":{
+			"input_dimension": 1000,
+			"output_dimension": 200,
+			"input_len": 300
+		},
+		"hidden_layer": {
+			"units": 100
+		},
+		"output_layer": {
+			"units": 3,
+			"activation": "softmax"
+		},
+		"conf": {
+			"loss": "categorical_crossentropy",
+			"metrics": "accuracy",
+			"epochs": 1,
+			"show_plot": true
+		}
+	},
+	"test": {
+		"to_categorical_labels": false,
+		"limit_results": 10
+	}
+}

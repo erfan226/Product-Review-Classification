@@ -1,0 +1,5 @@
+bin
+.DS_Store
+data/train.csv
+.idea
+__pycache__

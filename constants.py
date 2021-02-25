@@ -1,0 +1,5 @@
+RAW_DATA = "data/raw_data.csv"
+TRAIN_DATA = "data/train.csv"
+TEST_DATA = "data/test.csv"
+LABEL = "recommend"
+VALUE = "comment"

@@ -1,0 +1,11 @@
+matplotlib
+keras
+hazm
+pydot
+pydotplus
+graphviz
+numpy
+pandas
+seaborn
+tensorflow
+scikit-learn==0.24.1
