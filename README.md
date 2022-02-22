@@ -1,5 +1,5 @@
 # Product Review Classification
-A simple class project to classify a sample data-set of product reviews ([Digikala](https://www.digikala.com/opendata/)). Existing classes are: _Recommended_, _Not Recommended_, and _Neutral_.
+A simple project to classify a sample data-set of product reviews ([Digikala](https://www.digikala.com/opendata/)). Existing classes are: _Recommended_, _Not Recommended_, and _Neutral_.
 
 ### Instructions:
 - First do a `$ pip install -r requirements.txt` to install the required modules.
